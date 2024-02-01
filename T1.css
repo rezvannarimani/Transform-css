@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+  div {
+    height: 150px;
+    width: 200px;
+    margin: 50px;
+    background-color: rgb(227, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  div> .D {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .D> section {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 179, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 2s;
+  }
+
+  .sec1:hover {
+    transform: rotate(45deg);
+  }
+
+  .sec2:hover {
+    transform: rotateX(45deg);
+  }
+
+  .sec3:hover {
+    transform: rotateY(45deg);
+  }
+
+  .sec4:hover {
+    transform: scale(2);
+  }
+
+  .sec5:hover {
+    transform: scaleX(2);
+  }
+
+  .sec6:hover {
+    transform: scaleY(2);
+  }
+
+  .sec7:hover {
+    transform: skew(45deg);
+  }
+
+  .sec8:hover {
+    transform: skewY(45deg);
+  }
+
+  .sec9:hover {
+    transform: translate(45px, 25px);
+  }
+
+  .sec10:hover {
+    transform: translate(45px, 0);
+  }
+
+  .sec11:hover {
+    transform: translateY(45px);
+  }
+
+  .sec12:hover {
+    transform: skewY(45deg) scale(2);
+  }
+
+  .sec13:hover {
+    transform: rotateX(45deg);
+  }
+
+  .sec14:hover {
+    transform: rotateY(45deg);
+  }
+
+  .sec15:hover {
+    transition: all;
+    transform-origin: top right;
+    transform: rotate(45deg);
+  }
+
+  .sec16:hover {
+    transition: all;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+  }
+
+  .sec17:hover {
+    transition: all;
+    transform-origin: bottom;
+    transform: rotateX(45deg);
+  }
+
+  .P1 {
+    perspective: 80px;
+  }
+
+  .P2 {
+    perspective: 150px;
+  }
+
+  .sec18:hover {
+    transition: all;
+    transform-origin: top;
+    transform: rotateX(45deg);
+  }
+
+  .sec19:hover {
+    transition: all;
+    transform-origin: left;
+    transform: rotateY(45deg);
+  }
+
+  .sec20{
+    transition: all;
+    transform-origin: right;
+    transform: rotateY(45deg);
+  }
+
+  .sec21 {
+    transition: all;
+    transform-origin: top right;
+    transform: scale(2);
+  }
+
+  .sec22:hover {
+    transition: all;
+    transform-origin: bottom left;
+    transform: scale(2);
+  }
+
+  .sec23:hover {
+    transition: all;
+    transform-origin: right;
+    transform: scaleX(2);
+  }
+
+  .sec24:hover {
+    transition: all;
+    transform-origin: left;
+    transform: scaleX(2);
+  }
+
+  .sec25:hover {
+    transition: all;
+    transform-origin: top;
+    transform: scaleY(2);
+  }
+
+  .sec26:hover {
+    transition: all;
+    transform-origin: bottom;
+    transform: scaleY(2);
+  }
