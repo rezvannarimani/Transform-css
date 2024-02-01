@@ -137,13 +137,13 @@ section {
     transform: rotateY(45deg);
   }
 
-  .sec20{
+  .sec20:hover{
     transition: all;
     transform-origin: right;
     transform: rotateY(45deg);
   }
 
-  .sec21 {
+  .sec21:hover{
     transition: all;
     transform-origin: top right;
     transform: scale(2);
